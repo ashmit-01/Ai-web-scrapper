@@ -1,0 +1,17 @@
+{
+  "name": "ai-web-scraper-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "axios": "latest",
+    "cheerio": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest"
+  }
+}
