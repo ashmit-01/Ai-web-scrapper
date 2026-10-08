@@ -87,9 +87,3 @@ Response:
   "sourceUrl": "https://example.com/"
 }
 ```
-
-## Notes
-
-This scraper intentionally handles basic HTML pages. It does not attempt to bypass bot protection or render JavaScript-heavy applications.
-
-Do not commit `.env` or expose your Gemini API key in the frontend.
